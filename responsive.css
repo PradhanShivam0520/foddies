@@ -1,0 +1,50 @@
+/***************** media query ****************/
+@media only screen and (max-width:992px){
+    #newsletter-section .mail{
+        width: 100%;
+        margin:0 20px;
+    }
+    .navigation-wrap .navbar-collapse li{
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:768px){
+    .navigation-wrap{
+        margin-left : 0;
+        margin-right : 0;
+    }
+    #newsletter-section .mail{
+        width: 100%;
+        margin:0px;
+        margin-bottom: 20px;
+    }
+    .butn{
+        text-align: center;
+        margin:auto;
+    }
+}
+@media only screen and (max-width:576px){
+    .text-sec{
+        padding-left:22px;
+    }
+
+}
+
+@media only screen and (max-width:365px){
+    h1,h2,h3{
+       word-wrap: break-word;
+    }
+    .row2 .main-btn{
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    del{
+        font-size: 2.3rem;
+        margin: 2rem 0.3rem; 
+    }
+    .testimonial-section .carousel-item{
+        width:100%;
+    }
+}
